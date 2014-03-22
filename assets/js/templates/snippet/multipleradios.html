@@ -1,0 +1,10 @@
+<!-- Multiple Radios -->
+<div class="radio-control">
+    <h4><%= label %></h4>
+    <% _.each(radios, function(radios, i){ %>
+    <% i++%>
+    <p><label for="<%= name+'-'+i %>">
+      <input name="<%= name %>" id="<%= name+'-'+i %>" value="<%= radios %>" type="radio">
+      <%= radios %>
+    </label></p><% }); %>
+</div>

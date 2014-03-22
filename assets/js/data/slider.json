@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Slider",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "slider"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": "Численность компании"
+      },
+      "values": {
+        "label": "Значения",
+        "type": "textarea-split",
+        "value": [
+          "100",
+          "250",
+          "1000",
+          "5000",
+          "25000",
+          "100000"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Start Step",
+    "fields": {
+      "id": {
+        "label": "ID",
+        "type": "input",
+        "value": "step1"
+      },
+      "display": {
+        "label": "Показывать содержимое",
+        "type": "checkbox",
+        "value": true
+      }
+    }
+  },
+  {
+    "title": "End Step"
+  },
+  {
+    "title": "Step Script",
+    "fields": {
+      "id_first_block": {
+        "label": "ID первого блока",
+        "type": "input",
+        "value": ""
+      },
+      "id_button_first_block": {
+        "label": "ID кнопки первого блока",
+        "type": "input",
+        "value": ""
+      },
+      "id_second_block": {
+        "label": "ID второго блока",
+        "type": "input",
+        "value": ""
+      },
+      "id_button_second_block": {
+        "label": "ID кнопки второго блока",
+        "type": "input",
+        "value": ""
+      },
+      "id_button_submit": {
+        "label": "ID кнопки отправки формы",
+        "type": "input",
+        "value": ""
+      }
+    }
+  }
+]

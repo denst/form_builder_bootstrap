@@ -1,0 +1,1 @@
+denst@denst:~/www/Bootstrap-Form-Builder$ java -classpath js.jar:compiler.jar org.mozilla.javascript.tools.shell.Main r.js -o assets/js/lib/build.js

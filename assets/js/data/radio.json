@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Multiple Radios",
+    "fields": {
+      "name": {
+        "label": "Имя группы",
+        "type": "input",
+        "value": "radios"
+      },
+      "label": {
+        "label": "Teкст метки",
+        "type": "input",
+        "value": "Многострочные радио-кнопки"
+      },
+      "radios": {
+        "label": "Радио-кнопки",
+        "type": "textarea-split",
+        "value": [
+          "Вариант один",
+          "Вариант два"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Multiple Radios Inline",
+    "fields": {
+      "name": {
+        "label": "Имя группы",
+        "type": "input",
+        "value": "radios"
+      },
+      "label": {
+        "label": "Teкст метки",
+        "type": "input",
+        "value": "Однострочные радио-кнопки"
+      },
+      "radios": {
+        "label": "Радио-кнопки",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  },
+  {
+    "title": "Multiple Checkboxes",
+    "fields": {
+      "name": {
+        "label": "Имя группы",
+        "type": "input",
+        "value": "checkboxes"
+      },
+      "label": {
+        "label": "Teкст метки",
+        "type": "input",
+        "value": "Многострочные чекбоксы"
+      },
+      "checkboxes": {
+        "label": "Чекбоксы",
+        "type": "textarea-split",
+        "value": [
+          "Вариант один",
+          "Вариант два"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Multiple Checkboxes Inline",
+    "fields": {
+      "name": {
+        "label": "Имя группы",
+        "type": "input",
+        "value": "checkboxes"
+      },
+      "label": {
+        "label": "Teкст метки",
+        "type": "input",
+        "value": "Однострочные чекбоксы"
+      },
+      "checkboxes": {
+        "label": "Чекбоксы",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  }
+]

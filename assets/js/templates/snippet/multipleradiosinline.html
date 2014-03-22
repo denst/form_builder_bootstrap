@@ -1,0 +1,11 @@
+<!-- Multiple Checkboxes (inline) -->
+<div class="radio-control">
+    <h4><%= label %></h4>
+    <% _.each(radios, function(radios, i){ %>
+    <% i++%>
+    <label class="control-label-element" for="<%= name+'-'+i %>">
+        <input name="<%= name %>" id="<%= name+'-'+i %>" value="<%= radios %>" type="radio">
+      <%= radios %>
+    </label><% }); %>
+</div>
+<div class="clearfix"></div>

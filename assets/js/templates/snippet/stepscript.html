@@ -1,0 +1,22 @@
+------------Steps Script--------------
+<div style="display: none" id="script">
+    $('#<%= id_button_second_block%>').hide();
+    $('#<%= id_button_submit%>').hide();
+    
+    $("#<%= id_button_first_block%>").click(function() {
+        $(this).hide();
+        $('#<%= id_button_second_block%>').show();
+        $('#<%= id_button_submit%>').show();
+
+        $('#<%= id_first_block%>').hide();
+        $('#<%= id_second_block%>').show();
+    });
+    $("#<%= id_button_second_block%>").click(function() {
+        $(this).hide();
+        $('#<%= id_button_submit%>').hide();
+        $('#<%= id_button_first_block%>').show();
+
+        $('#<%= id_second_block%>').hide();
+        $('#<%= id_first_block%>').show();
+    });
+end script</div>

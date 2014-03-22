@@ -1,0 +1,86 @@
+-
+  title  : Select Basic
+  fields : 
+    id:
+      label  : ID / Name
+      type   : input
+      value  : select
+    label:
+      label  : Teкст метки
+      type   : input
+      value  : Выпадающий список
+    options:
+      label  : Варианты
+      type   : textarea-split
+      value  : ["Вариант один", "Вариант два"]
+    inputsize:
+      label: Размер выпадающего списка
+      type: select
+      value:
+        -
+          value    : input-mini
+          label    : Mini
+          selected : false
+        -
+          value    : input-small
+          label    : Small
+          selected : false
+        - 
+          value    : input-medium
+          label    : Medium
+          selected : false
+        -
+          value    : input-large
+          label    : Large
+          selected : false
+        -
+          value    : input-xlarge
+          label    : Xlarge
+          selected : true
+        -
+          value    : input-xxlarge
+          label    : Xxlarge
+          selected : false
+-
+  title  : Select Multiple
+  fields : 
+    id:
+      label  : ID / Name
+      type   : input
+      value  : selectmultiple
+    label:
+      label  : Label Text
+      type   : input
+      value  : Многострочный выпадающий список
+    options:
+      label  : Варианты
+      type   : textarea-split
+      value  : ["Вариант один", "Вариант два"]
+    inputsize:
+      label: Размер выпадающего списка
+      type: select
+      value:
+        -
+          value    : input-mini
+          label    : Mini
+          selected : false
+        -
+          value    : input-small
+          label    : Small
+          selected : false
+        - 
+          value    : input-medium
+          label    : Medium
+          selected : false
+        -
+          value    : input-large
+          label    : Large
+          selected : false
+        -
+          value    : input-xlarge
+          label    : Xlarge
+          selected : true
+        -
+          value    : input-xxlarge
+          label    : Xxlarge
+          selected : false

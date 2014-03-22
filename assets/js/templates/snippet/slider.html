@@ -1,0 +1,21 @@
+<!-- Slider -->
+<div class="slider-container">
+    <link type="text/css" href="http://axes.pro/formbuilder/css/lib/jquery-ui-1.8.24.custom.css" rel="stylesheet">
+    <script src="http://axes.pro/formbuilder/js/lib/jquery-ui.min.js" type="text/javascript"></script>
+    <div id="amount-<%= id %>" style="padding-bottom: 5px;"><h4><%= label %>: <%= values[0]%></h4></div>
+    <div id="<%= id %>" style="width: 300px; margin-bottom: 20px" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;"></a></div>
+    <input type="hidden" name="<%= id %>_count" value="<%= values[0]%>" id="count-<%= id %>">
+</div>
+<div style="display: none" id="script">
+  $(function() {
+      var valMap = [<% _.each(values, function(value) { %><%= value%>,<% }); %>];
+      $("#<%= id %>").slider({
+          min: 0,
+          max: valMap.length - 1,
+          slide: function(event, ui) {                        
+              $("#amount-<%= id %>").html('<h4><%= label %>: ' + valMap[ui.value] + '</h4>');
+              $("#count-<%= id %>").val(valMap[ui.value]);
+          }       
+      });
+  });
+end script</div>

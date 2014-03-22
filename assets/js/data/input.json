@@ -1,0 +1,262 @@
+ [
+  {
+    "title": "Fio Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "fio"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "Фамилия Имя Отчество"
+      },
+      "helptext": {
+        "label": "Вспомогательный текст",
+        "type": "input",
+        "value": ""
+      },
+      "required": {
+        "label": "Поле необходимо",
+        "type": "checkbox",
+        "value": true
+      },
+      "inputsize": {
+        "label": "Размер поля",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-lg",
+            "label": "Large",
+            "selected": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Company Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "company"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "Компания"
+      },
+      "helptext": {
+        "label": "Вспомогательный текст",
+        "type": "input",
+        "value": ""
+      },
+      "required": {
+        "label": "Поле необходимо",
+        "type": "checkbox",
+        "value": true
+      },
+      "inputsize": {
+        "label": "Размер поля",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-lg",
+            "label": "Large",
+            "selected": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Phone Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "phone"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "+9 (999) 999-99-99"
+      },
+      "helptext": {
+        "label": "Вспомогательный текст",
+        "type": "input",
+        "value": ""
+      },
+      "required": {
+        "label": "Поле необходимо",
+        "type": "checkbox",
+        "value": true
+      },
+      "inputsize": {
+        "label": "Размер поля",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-lg",
+            "label": "Large",
+            "selected": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Email Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "email"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "Email"
+      },
+      "helptext": {
+        "label": "Вспомогательный текст",
+        "type": "input",
+        "value": ""
+      },
+      "required": {
+        "label": "Поле необходимо",
+        "type": "checkbox",
+        "value": true
+      },
+      "inputsize": {
+        "label": "Размер поля",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-lg",
+            "label": "Large",
+            "selected": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Text Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "text"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "Поле"
+      },
+      "helptext": {
+        "label": "Вспомогательный текст",
+        "type": "input",
+        "value": ""
+      },
+      "required": {
+        "label": "Поле необходимо",
+        "type": "checkbox",
+        "value": false
+      },
+      "inputsize": {
+        "label": "Размер поля",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-lg",
+            "label": "Large",
+            "selected": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Text Area",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "comments"
+      },
+      "label": {
+        "label": "Текст метки",
+        "type": "input",
+        "value": ""
+      },
+      "textarea": {
+        "label": "Начальный текст",
+        "type": "textarea",
+        "value": "комментарии"
+      }
+    }
+  },
+  {
+    "title": "File Button",
+    "fields": {
+      "id": {
+        "label": "ID / Name",
+        "type": "input",
+        "value": "file"
+      }
+    }
+  }
+]

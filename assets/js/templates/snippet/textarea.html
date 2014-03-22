@@ -1,0 +1,5 @@
+<!-- Comment Textarea -->
+<p class="textarea-control">
+    <% if (label.length > 0) { %><label class="control-label" for="<%= id %>"><%= label %></label><% } %>
+    <textarea id="<%= id %>" onfocus="if(this.value=='<%= textarea %>')this.value='';" onblur="if(this.value=='')this.value='<%= textarea %>';" name="<%= id %>" rows="10" cols="30" placeholder="<%= textarea %>"><%= textarea %></textarea>
+</p>

@@ -1,0 +1,10 @@
+<!-- Multiple Checkboxes -->
+<div class="checkbox-control">
+    <h4><%= label %></h4>
+    <% _.each(checkboxes, function(checkbox, i){ %>
+    <% i++%>
+    <p><label for="<%= i %>">
+      <input name="<%= name %>[]" id="<%= i %>" value="<%= checkbox %>" type="checkbox">
+      <%= checkbox %>
+    </label></p><% }); %>
+</div>

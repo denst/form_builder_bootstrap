@@ -1,0 +1,20 @@
+<!-- Slider -->
+<div id="slider-container">
+    <link type="text/css" href="/media/css/ui-lightness/jquery-ui-1.8.24.custom.css" rel="stylesheet">
+    <div id="amount-<%= id %>" style="padding-bottom: 5px;"><h4><%= label %><%= values[0]%></h4></div>
+    <div id="<%= id %>" style="width: 300px; margin-bottom: 20px" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;"></a></div>
+    <input type="hidden" name="count" value="<%= values[0]%>" id="count-<%= id %>">
+</div>
+<script>
+  $(function() {
+      var valMap = [250, 1000, 5000, 25000, 100000];
+      $("#<%= id %>").slider({
+          min: 0,
+          max: valMap.length - 1,
+          slide: function(event, ui) {                        
+              $("#amount-<%= id %>").html('<h4><%= label %>' + valMap[ui.value] + '</h4>');
+              $("#count-<%= id %>").val(valMap[ui.value]);
+          }       
+      });
+  });
+</script>
